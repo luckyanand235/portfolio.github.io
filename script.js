@@ -5,7 +5,7 @@ $(document).ready(function() {
         } else {
             $('.navbar').removeClass("sticky");
         }
-        // console.log(scroll)
+        console.log(scroll)
         if(this.scrollY > 500) {
             $('.scroll-up-btn').addClass("show");
         }
@@ -44,3 +44,4 @@ $(document).ready(function() {
         loop: true
     });
 })
+
